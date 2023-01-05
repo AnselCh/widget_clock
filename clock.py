@@ -11,10 +11,11 @@ class MyWidget(QWidget):
         super().__init__()
         self.setWindowOpacity(0.3)
         self.setWindowTitle('Ann Clock')
+        self.setWindowFlags(Qt.WindowStaysOnTopHint)  # 視窗置頂
         self.setWindowFlag(Qt.FramelessWindowHint)  # 標題列消失
-        self.setAttribute(Qt.WA_TranslucentBackground)  # 背景形狀為主
-        self.resize(350, 85)
-        self.setUpdatesEnabled(True)
+        self.setAttribute(Qt.WA_TranslucentBackground)  # 整個label以外設為半透明
+        self.resize(360, 85)
+        self.setUpdatesEnabled(True)  # 時間更新的Thread
         self.ui()
         self.ocv = True
 
