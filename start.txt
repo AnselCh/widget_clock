@@ -1,1 +1,0 @@
-python C:\Users\ansel_chen\VScode_Ansel\qt5_clock\clock.py
