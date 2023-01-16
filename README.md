@@ -1,3 +1,3 @@
 ﻿##### widget_clock
- E
+ Example
  ![image](https://github.com/AnselCh/widget_clock/blob/main/clock.gif)
